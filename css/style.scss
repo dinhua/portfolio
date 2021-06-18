@@ -1,0 +1,11 @@
+// Colors
+$color-white: #fff;
+$color-black: #000;
+
+// General
+* {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+    letter-spacing: 0.5px;
+    color: $color-black;
+  }
