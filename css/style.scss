@@ -27,7 +27,7 @@ h6, h6 a {
 h1 {
   font-size: 30px;
 
-  @media screen and (max-width: 991.98px) {
+  @media screen and (max-width: 1199.98px) {
     font-size: 20px;
   }
 }
@@ -36,7 +36,7 @@ h2 {
   font-size: 60px;
   font-weight: 400;
 
-  @media screen and (max-width: 991.98px) {
+  @media screen and (max-width: 1199.98px) {
     font-size: 30px;
   }
 }
@@ -45,7 +45,7 @@ h3 {
   font-size: 60px;
   font-weight: 400;
 
-  @media screen and (max-width: 991.98px) {
+  @media screen and (max-width: 1199.98px) {
     font-size: 30px;
   }
 }
@@ -57,7 +57,7 @@ p {
 }
 
 // Container in mobile
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 1199.98px) {
   .container,
   .container-fluid {
     padding-left: 30px;
@@ -73,7 +73,7 @@ p {
   z-index: 999;
   background-color: $color-dark-gray;
 
-  @media screen and (max-width: 991.98px) {
+  @media screen and (max-width: 1199.98px) {
     height: 70px;
   }
 
@@ -81,7 +81,7 @@ p {
     color: $color-white;
     line-height: 100px;
 
-    @media screen and (max-width: 991.98px) {
+    @media screen and (max-width: 1199.98px) {
       line-height: 70px;
       padding-left: 45px;
 
@@ -126,7 +126,7 @@ p {
         padding: 37px 0;
         text-decoration: none;
 
-        @media screen and (max-width: 991.98px) {
+        @media screen and (max-width: 1199.98px) {
           &:not(.cta-button) {
             display: none;
           }
@@ -140,7 +140,7 @@ p {
           border: none;
           transition: opacity 0.3s;
 
-          @media screen and (max-width: 991.98px) {
+          @media screen and (max-width: 1199.98px) {
             width: 100%;
             text-align: center;
             position: fixed;
@@ -170,7 +170,7 @@ p {
   min-height: 720px;
   background-color: $color-dark-blue;
 
-  @media screen and (max-width: 991.98px) {
+  @media screen and (max-width: 1199.98px) {
     height: auto;
     min-height: auto;
   }
@@ -199,7 +199,7 @@ p {
     top: 0;
     left: 0;
 
-    @media screen and (max-width: 991.98px) {
+    @media screen and (max-width: 1199.98px) {
       display: none;
     }
 
@@ -244,7 +244,7 @@ p {
         background-size: cover;
         background-position: center center;
 
-        @media screen and (max-width: 991.98px) {
+        @media screen and (max-width: 1199.98px) {
           height: 100vw;
           padding: 30px;
         }
