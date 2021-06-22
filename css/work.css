@@ -230,4 +230,170 @@ p {
     text-align: left;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+h3, h4, h5, h6 {
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.75;
+}
+
+q {
+  font-family: "monaco", monospace;
+  font-style: italic;
+  color: #d24648;
+  letter-spacing: 0;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+}
+
+blockquote {
+  font-family: "monaco", monospace;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+figcaption {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+hr {
+  margin: 84px 0;
+}
+
+@media screen and (max-width: 1199.98px) {
+  hr {
+    margin: 54px 0;
+  }
+}
+
+.sketchfab-embed-wrapper,
+.youtube-embed-wrapper {
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+
+.sketchfab-embed-wrapper iframe,
+.youtube-embed-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+table {
+  width: 100%;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+table tbody tr th, table tbody tr td {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  padding: 15px 25px;
+}
+
+#content .work-header {
+  padding: 300px 0 200px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+@media screen and (max-width: 1199.98px) {
+  #content .work-header {
+    padding: calc(70px + 150px) 0 150px;
+  }
+}
+
+#content .work-header::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#content .work-header .header-title {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#work .work-content {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+@media screen and (max-width: 1199.98px) {
+  #work .work-content {
+    padding: 54px 0;
+  }
+}
+/*# sourceMappingURL=work.css.map */

@@ -230,4 +230,174 @@ p {
     text-align: left;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+#hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 200px 0 100px;
+  height: 90vh;
+  min-height: 720px;
+  background-color: #212647;
+}
+
+@media screen and (max-width: 1199.98px) {
+  #hero {
+    height: auto;
+    min-height: auto;
+  }
+}
+
+#hero .hero-title,
+#hero .hero-intro {
+  color: #fff;
+}
+
+#work {
+  position: relative;
+}
+
+#work .work-banner {
+  height: 100vh;
+  padding: 100px 0 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../images/work_background.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1199.98px) {
+  #work .work-banner {
+    display: none;
+  }
+}
+
+#work .work-banner h2 {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#work .work-banner::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#work .work-list {
+  position: relative;
+}
+
+#work .work-list .work-item {
+  width: 100%;
+  position: relative;
+}
+
+#work .work-list .work-item a {
+  text-decoration: none;
+}
+
+#work .work-list .work-item .work-thumbnail {
+  height: 50vw;
+  text-align: center;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 100px;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (max-width: 1199.98px) {
+  #work .work-list .work-item .work-thumbnail {
+    height: 100vw;
+    padding: 30px;
+  }
+}
+
+#work .work-list .work-item .work-thumbnail::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+#work .work-list .work-item .work-thumbnail:hover::before {
+  opacity: 0.5;
+}
+
+#work .work-list .work-item .work-thumbnail .work-category li,
+#work .work-list .work-item .work-thumbnail .work-title,
+#work .work-list .work-item .work-thumbnail .work-desc {
+  color: #fff;
+  position: relative;
+  z-index: 0;
+}
+
+#work .work-list .work-item .work-thumbnail .work-category {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+#work .work-list .work-item .work-thumbnail .work-category li {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#work .work-list .work-item .work-thumbnail .work-category li + li {
+  margin-left: 8px;
+}
+
+#work .work-list .work-item .work-thumbnail .work-category li::before {
+  content: '#';
+}
+
+#work .work-list .work-item .work-thumbnail .work-title {
+  font-family: "Bangers", "Dela Gothic One", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", cursive;
+  line-height: 1.2;
+}
+/*# sourceMappingURL=home.css.map */

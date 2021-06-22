@@ -1,0 +1,198 @@
+@import 'variable';
+@import 'style';
+
+// ============================== //
+// General
+// ============================== //
+
+h3, h4, h5, h6 {
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.75;
+    margin: 0;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.75;
+}
+
+q {
+    font-family: $font-mono;
+    font-style: italic;
+    color: $color-tue-red;
+    letter-spacing: 0;
+    border: 1px solid $color-border;
+    background-color: $color-light-gray;
+    border-radius: 4px;
+}
+
+blockquote {
+    font-family: $font-mono;
+    color: rgba($color-black, 0.7);
+    background-color: $color-light-gray;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+figcaption {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+hr {
+    margin: 84px 0;
+
+    @media screen and (max-width: 1199.98px) {
+        margin: 54px 0;
+    }
+}
+
+// ============================== //
+// Responsive iframe
+// ============================== //
+
+.sketchfab-embed-wrapper,
+.youtube-embed-wrapper {
+    padding: 56.25% 0 0 0;
+    position: relative;
+}
+
+.sketchfab-embed-wrapper iframe,
+.youtube-embed-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+// ============================== //
+// Font variable
+// ============================== //
+
+.font-bold {
+    font-weight: 600;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+// ============================== //
+// Text variable
+// ============================== //
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+// ============================== //
+// Table
+// ============================== //
+
+table {
+    width: 100%;
+
+    tbody {
+        tr {
+            &:nth-child(odd) {
+                background-color: $color-light-gray;
+            }
+
+            th, td {
+                font-size: 16px;
+                letter-spacing: 0.5px;
+                line-height: 1.5;
+                padding: 15px 25px;
+            }
+        }
+    }
+}
+
+// ============================== //
+// Work Header
+// ============================== //
+
+#content {
+    .work-header {
+        padding: 300px 0 200px;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+
+        @media screen and (max-width: 1199.98px) {
+            padding: calc(70px + 150px) 0 150px;
+        }
+
+        &::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-color: $color-black;
+            opacity: 0.4;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+
+        .header-title {
+            text-align: center;
+            color: $color-white;
+            position: relative;
+            z-index: 1;
+        }
+    }
+}
+
+// ============================== //
+// Work Content
+// ============================== //
+
+#work {
+    .work-content {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 80px 0;
+
+        @media screen and (max-width: 1199.98px) {
+            padding: 54px 0;
+        }
+    }
+}
