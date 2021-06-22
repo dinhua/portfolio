@@ -210,7 +210,7 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("../images/favicon.png");
+  background-image: url("../images/work_background.jpg");
   background-size: cover;
   background-position: center center;
   position: -webkit-sticky;
@@ -316,6 +316,8 @@ p {
 
 #work .work-list .work-item .work-thumbnail .work-category li {
   display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 #work .work-list .work-item .work-thumbnail .work-category li + li {
