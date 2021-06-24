@@ -393,7 +393,7 @@ table tbody tr td:last-child {
   z-index: 1;
 }
 
-#work .work-content {
+#single-work .work-content {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
@@ -401,8 +401,24 @@ table tbody tr td:last-child {
 }
 
 @media screen and (max-width: 1199.98px) {
-  #work .work-content {
+  #single-work .work-content {
     padding: 54px 0;
   }
+}
+
+.fancybox-infobar {
+  color: #fff;
+}
+
+.fancybox-infobar span {
+  color: #fff;
+}
+
+.fancybox-button svg {
+  fill: #fff;
+}
+
+.fancybox-button svg path {
+  fill: #fff;
 }
 /*# sourceMappingURL=work.css.map */

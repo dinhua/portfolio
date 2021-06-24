@@ -195,7 +195,7 @@ table {
 // Work Content
 // ============================== //
 
-#work {
+#single-work {
     .work-content {
         width: 100%;
         max-width: 1024px;
@@ -204,6 +204,28 @@ table {
 
         @media screen and (max-width: 1199.98px) {
             padding: 54px 0;
+        }
+    }
+}
+
+// ============================== //
+// Override fancybox style
+// ============================== //
+
+.fancybox-infobar {
+    color: $color-white;
+
+    span {
+        color: $color-white;
+    }
+}
+
+.fancybox-button {
+    svg {
+        fill: $color-white;
+
+        path {
+            fill: $color-white;
         }
     }
 }

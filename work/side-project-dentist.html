@@ -29,6 +29,9 @@
     <!-- Loading Style -->
     <link rel="stylesheet" type="text/css" href="../css/plugins/loading.css"/>
 
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/plugins/fancybox-3.5.7/jquery.fancybox.min.css"/>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
@@ -81,7 +84,7 @@
         </header>
 
         <!-- Work Content -->
-        <div id="work">
+        <div id="single-work">
             <div class="container">
                 <article class="work-content">
 
@@ -92,25 +95,33 @@
                             <br/>
                             
                             <figure>
-                                <img class="img-fluid" src="../images/3D/side_project/Dentist1.jpg" alt="模擬圖1"/>
+                                <a data-fancybox="gallery">
+                                    <img class="img-fluid" src="../images/3D/side_project/Dentist1.jpg" alt="模擬圖1"/>
+                                </a>
                             </figure>
 
                             <br/>
 
                             <figure>
-                                <img class="img-fluid" src="../images/3D/side_project/Dentist2.jpg" alt="模擬圖2"/>
+                                <a data-fancybox="gallery">
+                                    <img class="img-fluid" src="../images/3D/side_project/Dentist2.jpg" alt="模擬圖2"/>
+                                </a>
                             </figure>
 
                             <br/>
 
                             <figure>
-                                <img class="img-fluid" src="../images/3D/side_project/Dentist.jpg" alt="模擬圖3"/>
+                                <a data-fancybox="gallery">
+                                    <img class="img-fluid" src="../images/3D/side_project/Dentist.jpg" alt="模擬圖3"/>
+                                </a>
                             </figure>
 
                             <br/>
 
                             <figure>
-                                <img class="img-fluid" src="../images/3D/side_project/Dentist3.jpg" alt="模擬圖4"/>
+                                <a data-fancybox="gallery">
+                                    <img class="img-fluid" src="../images/3D/side_project/Dentist3.jpg" alt="模擬圖4"/>
+                                </a>
                             </figure>
 
                             <br/>
@@ -126,12 +137,16 @@
                             <div class="row">
                                 <div class="col-xl-6 col-12">
                                     <figure>
-                                        <img class="img-fluid" src="../images/3D/side_project/Dentist4.png" alt="補償位子設計"/>
+                                        <a data-fancybox="gallery">
+                                            <img class="img-fluid" src="../images/3D/side_project/Dentist4.png" alt="補償位子設計"/>
+                                        </a>
                                     </figure>
                                 </div>
                                 <div class="col-xl-6 col-12">
                                     <figure>
-                                        <img class="img-fluid" src="../images/3D/side_project/Dentist5.png" alt="腳控開關設計"/>
+                                        <a data-fancybox="gallery">
+                                            <img class="img-fluid" src="../images/3D/side_project/Dentist5.png" alt="腳控開關設計"/>
+                                        </a>
                                     </figure>
                                 </div>
                             </div>
@@ -215,6 +230,9 @@
 
     <!-- Loading Animation Js -->
     <script src="../js/plugins/imagesloaded.pkgd.min.js"></script>
+
+    <!-- Fancybox js -->
+    <script src="../js/plugins/fancybox-3.5.7/jquery.fancybox.min.js"></script>
 
     <!-- Custom js -->
     <script src="../js/main.js"></script>

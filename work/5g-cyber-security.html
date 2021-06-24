@@ -29,6 +29,9 @@
     <!-- Loading Style -->
     <link rel="stylesheet" type="text/css" href="../css/plugins/loading.css"/>
 
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/plugins/fancybox-3.5.7/jquery.fancybox.min.css"/>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
@@ -81,7 +84,7 @@
         </header>
 
         <!-- Work Content -->
-        <div id="work">
+        <div id="single-work">
             <div class="container">
                 <article class="work-content">
 
@@ -92,7 +95,9 @@
                             <br/>
                             
                             <figure>
-                                <img class="img-fluid" src="../images/graphic/iii/5g_technology_post.jpg" alt="5g技術多元海報"/>
+                                <a data-fancybox="gallery">
+                                    <img class="img-fluid" src="../images/graphic/iii/5g_technology_post.jpg" alt="5g技術多元海報"/>
+                                </a>
                             </figure>
 
                             <br/>
@@ -102,7 +107,9 @@
                             <br/>
 
                             <figure>
-                                <img class="img-fluid" src="../images/graphic/iii/5g_technology_banner.jpg" alt="5g技術多元橫幅廣告"/>
+                                <a data-fancybox="gallery">
+                                    <img class="img-fluid" src="../images/graphic/iii/5g_technology_banner.jpg" alt="5g技術多元橫幅廣告"/>
+                                </a>
                             </figure>
 
                             <br/>
@@ -112,7 +119,9 @@
                             <br/>
 
                             <figure>
-                                <img class="img-fluid" src="../images/graphic/iii/5g_technology_alldesign.jpg" alt="5g技術多元研究會所有設計品"/>
+                                <a data-fancybox="gallery">
+                                    <img class="img-fluid" src="../images/graphic/iii/5g_technology_alldesign.jpg" alt="5g技術多元研究會所有設計品"/>
+                                </a>
                                 <figcaption>桌上立牌、工作證及簽到處指示牌</figcaption>
                             </figure>
 
@@ -195,6 +204,9 @@
 
     <!-- Loading Animation Js -->
     <script src="../js/plugins/imagesloaded.pkgd.min.js"></script>
+
+    <!-- Fancybox js -->
+    <script src="../js/plugins/fancybox-3.5.7/jquery.fancybox.min.js"></script>
 
     <!-- Custom js -->
     <script src="../js/main.js"></script>
