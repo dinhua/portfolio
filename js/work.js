@@ -1,4 +1,8 @@
 $(function(){
+    // Load components
+    $('#nav').load('../page/component/navigation.html');
+    $('#footer').load('../page/component/footer.html');
+
     // Fancybox Effect
     var $fancybox = $('[data-fancybox="gallery"]');
 
